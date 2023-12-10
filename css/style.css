@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  padding: 20px 30px;
+  top: 0;
+  left: 0;
+  background: #F7F7F7;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+header nav a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+}
+header nav a:hover, header nav a.active {
+    color: tomato;
+}
